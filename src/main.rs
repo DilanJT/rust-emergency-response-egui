@@ -1,21 +1,3 @@
-// Cargo.toml dependencies:
-/*
-[dependencies]
-eframe = "0.28"
-egui = "0.28"
-chrono = { version = "0.4", features = ["serde"] }
-serde = { version = "1.0", features = ["derive"] }
-uuid = { version = "1.0", features = ["v4"] }
-tokio = { version = "1.0", features = ["full"], optional = true }
-
-[profile.dev]
-opt-level = 2
-
-[profile.release]
-opt-level = 3
-lto = true
-*/
-
 use eframe::egui;
 use egui::{
     Color32, FontFamily, FontId, RichText, Stroke, Vec2, Ui, Context, CentralPanel, SidePanel, TopBottomPanel
